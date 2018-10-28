@@ -9,7 +9,7 @@ Run this site on your local machine by following the below instructions.
 
 Before forking this repo and cloning down to your computer.
 
-•	Download file https://
+•	Download file https://github.com/hiendieulam/The-Mattel-See-N-Say-Storymaker
 
 # Installation
 
