@@ -5,13 +5,13 @@ By Hien Lam 2018
 
 Run this site on your local machine by following the below instructions.
 
-Download file
+# Download file
 
 Before forking this repo and cloning down to your computer.
 
 •	Download file https://
 
-Installation
+# Installation
 
 •	Fork this repo to your Github (Click Fork button at the top right of this repo on your github, choose where you'd like to save it).
 
@@ -19,7 +19,7 @@ Installation
 
 •	Open your web browser to https://the-story-maker.azurewebsites.net to see the app.
 
-The app running
+# The app running
 
 •	Setting a string value to the variable, textToSpeak and clicking the button, the built-in TextToSpeech API will read the words aloud.
 
@@ -27,7 +27,7 @@ The app running
 
 •	The user will push each of the buttons, and each will concatenate the random word from it’s array, eventually building the text string that will be assigned to the variable textToSpeak.
 
-Main Files
+# Main Files
 
 •	css
 
