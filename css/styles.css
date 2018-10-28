@@ -1,0 +1,258 @@
+@charset "utf-8";
+html {
+	background-color: #2b2121;
+	background-image: url("../images/Book_Background5.png");
+}
+body {
+	width: 1024px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/** Create Story title h1 em  **/
+h1 em {
+	font-size: 60px;
+	font-style: normal;
+	position: relative;
+	top: 10px;
+	left:300px;
+	color: #ff9900;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/** Create words title h2  **/
+h2 {
+	width: 443px;
+	height: 431px;
+	color: #000000;
+	position: relative;
+	left: 95px;
+	top: 170px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	float: left;
+}
+
+/** Create 5 spans in <h2> and the font, position, width, left, right, letter spacing,.. format for each span  **/
+h2 span {
+	position: absolute;
+}
+h2 span:nth-of-type(1) {
+	top: 5px;
+	left: 3px;
+	width: 83px;
+	height: 479px;
+	position: relative;
+	font-weight: normal;
+	line-height: 16px;
+	padding-right:20px;
+	margin-left:20px;
+}
+h2 span:nth-of-type(2) {
+	top: 5px;
+	left: 115px;
+	width: 83px;
+	height: 479px;
+	font-weight: normal;
+	line-height: 16px;
+	padding-right:20px;
+}
+h2 span:nth-of-type(3) {
+	top: 5px;
+	left: 185px;
+	font-weight: normal;
+	line-height: 16px;
+	padding-right:20px;
+}
+h2 span:nth-of-type(4) {
+	top: 5px;
+	left: 270px;
+	font-weight: normal;
+	line-height: 16px;
+	padding-right:20px;
+}
+h2 span:nth-of-type(5) {
+	top: 5px;
+	left: 380px;
+	font-weight: normal;
+	line-height: 16px;
+	padding-right:20px;
+}
+
+/** The font, position, width, left, right,.. format for each left id  and right id **/
+#left{
+	width: 443px;
+	height: 500px;
+	float: left;
+	top: 500px;
+
+}
+#right{
+	width: 415px;
+	height:521px;
+	float: right;
+	top: 500px;
+}
+
+/**  The position, width, left, right,.. format for each divRightTop Class and divRightButtom Class**/
+#right > .divRightTop{
+	top: -410px;
+	left: 50px;
+	width: 415px;
+	line-height: 30px;
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	position: relative;
+	float: right;
+}
+#right > .divRightButtom{
+	top: -60px;
+	left: 20px;
+	width: 415px;
+	line-height: 30px;
+	margin-left:10px;
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	position: relative;
+	float: right;
+}
+
+/**  The position, width, left, right,.. format for each multiColumn1 Class **/
+#left >.multiColumn1{
+	top: 210px;
+	left: -340px;
+	width: 83px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-left:10px;
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	position: relative;
+}
+/**  The position, width, left, right,.. format for each multiColumn2 Class **/
+#left >.multiColumn2{
+	top: -100px;
+	left: -260px;
+	width: 83px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-left:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	position: relative;
+}
+/**  The position, width, left, right,.. format for each multiColumn3 Class **/
+#left >.multiColumn3{
+	top: -420px;
+	left: -170px;
+	width: 83px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-left:20px;
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	position: relative;
+}
+/**  The position, width, left, right,.. format for each multiColumn4 Class **/
+#left >.multiColumn4{
+	top: -735px;
+	left: -80px;
+	width: 83px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-left:20px;
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	position: relative;
+}
+/**  The position, width, left, right,.. format for each multiColumn5 Class **/
+#left >.multiColumn5{
+	top: -1055px;
+	left: 10px;
+	width: 83px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-left:20px;
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	position: relative;
+}
+/**  The position, width, left, right,.. format for each multiColumn6 Class **/
+.multiColumn6{
+	top: -40px;
+	left: 130px;
+	width: 150px;
+	line-height: 30px;
+	margin-left:10px;
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	position: relative;
+	text-decoration: none;
+}
+/**  The position, width, left, right,.. format for each multiColumn7 Class **/
+.multiColumn7{
+	top: -130px;
+	left: 260px;
+	width: 150px;
+	line-height: 30px;
+	margin-left:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	position: relative;
+	text-decoration: none;
+}
+/**  The position, width, left, right,.. format for each multiColumn8 Class **/
+.multiColumn8{
+	top: -225px;
+	left: -5px;
+	width: 150px;
+	line-height: 30px;
+	margin-left:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	position: relative;
+	text-decoration: none;
+}
+/* Link format of words (Reset, Play Back, Surprise)*/
+a:link {
+	text-decoration: none;
+	color: purple;
+	font-weight: bold;
+}
+
+a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ff0099;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #ff0099;
+}
+
+a:active {
+	text-decoration: underline;
+	color: green;
+	font-weight: bold;
+}

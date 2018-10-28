@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>The Mattel® See ‘N’ Say Storymaker </title>
+	<!-- Apply a normalize CSS stylesheet -->
+	<!-- link CSS to stylesheet -->
+	<link href="css/normalize.css" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<!-- Create a title of the Story -->
+		<h1><em>See'N Say Story Maker</em></h1>
+	</header>
+	<main>
+		<section>
+			<div>
+				<div>
+					<!-- Create a vocabulary title with Span -->
+					<h2><span>Nouns</span><span>Verbs</span><span>Adjectives</span><span>Other-Nouns</span><span>Places</span></h2>
+					<div id="left">
+						<!--Create 5 images in a list of Nouns -->
+						<div class = "multiColumn1" >
+							<div>
+								<img src="./images/turky2.png"  alt="Turky" />
+							</div>
+							<div>
+								<img src="./images/mom2.png" alt="Mom" />
+							</div>
+							<div>
+								<img src="./images/dad2.png" alt="Dad" />
+							</div>
+							<div>
+								<img src="./images/dog2.png" alt="Dog" />
+							</div>
+							<div>
+								<img src="./images/teacher2.png" alt="Teacher" />
+							</div>
+						</div>
+						<!--Create 5 images in a list of Verbs -->
+						<div class = "multiColumn2" >
+							<div>
+								<img src="./images/sat-on2.png"  alt="sat-on" />
+							</div>
+							<div>
+								<img src="./images/ate2.png" alt="ate" />
+							</div>
+							<div>
+								<img src="./images/danced-with2.png" alt="danced-with" />
+							</div>
+							<div>
+								<img src="./images/saw2.png" alt="saw" />
+							</div>
+							<div>
+								<img src="./images/doesnt-like2.png" alt="doesnt-like" />
+							</div>
+						</div>
+						<!--Create 5 images in a list of adjectives -->
+						<div class = "multiColumn3" >
+							<div>
+								<img src="./images/a-funny2.png"  alt="a-funny" />
+							</div>
+							<div>
+								<img src="./images/a-scare2.png" alt="a-scare" />
+							</div>
+							<div>
+								<img src="./images/a-goofy2.png" alt="a-goofy" />
+							</div>
+							<div>
+								<img src="./images/a-slimy2.png" alt="a-slimy" />
+							</div>
+							<div>
+								<img src="./images/a-barking2.png" alt="a-barking" />
+							</div>
+						</div>
+						<!--Create 5 images in a another list of nouns -->
+						<div class = "multiColumn4" >
+							<div>
+								<img src="./images/goat2.png"  alt="goat" />
+							</div>
+							<div>
+								<img src="./images/monkey2.png" alt="monkey" />
+							</div>
+							<div>
+								<img src="./images/fish2.png" alt="fish" />
+							</div>
+							<div>
+								<img src="./images/cow2.png" alt="cow" />
+							</div>
+							<div>
+								<img src="./images/frog2.png" alt="frog" />
+							</div>
+						</div>
+						<!--Create 5 images in a number of places -->
+						<div class = "multiColumn5" >
+							<div>
+								<img src="./images/on-the-moon2.png"  alt="on-the-moon" />
+							</div>
+							<div>
+								<img src="./images/on-the-chair2.png" alt="on-the-chair" />
+							</div>
+							<div>
+								<img src="./images/in-my-spaghetti2.png" alt="in-my-spaghetti" />
+							</div>
+							<div>
+								<img src="./images/in-my-soup2.png" alt="in-my-soup" />
+							</div>
+							<div>
+								<img src="./images/on-the-grass2.png" alt="on-the-grass" />
+							</div>
+						</div>								
+						
+					</div>
+					<!-- Create 5 butons by images with separate functions such as Noun, Verb, Adjective, The other Noun, Places  -->
+					<div id="right">
+						<div class="divRightTop">
+							<a href="javascript:;" onclick="randomMsg(1);"><img src="./images/top_68x68_1.png" alt="Noun" /></a>
+							<a href="javascript:;" onclick="randomMsg(2);"><img src="./images/top_68x68_2.png" alt="Verb" /></a>
+							<a href="javascript:;" onclick="randomMsg(3);"><img src="./images/top_68x68_3.png" alt="Adjective" /></a>
+							<a href="javascript:;" onclick="randomMsg(4);"><img src="./images/top_68x68_4.png" alt="The Other Noun" /></a>
+							<a href="javascript:;" onclick="randomMsg(5);"><img src="./images/top_68x68_5.png" alt="Places" /></a>
+						</div>	
+						<!-- Create 3 butons by images with separate functions such as Play Back, Surprise, Reset -->		
+						<div class="divRightButtom">
+							<!-- Create 1 row with 3 butons (Play Back, Surprise, Reset) by images and text -->	
+							<div class="row">
+								<div class="multiColumn6">
+									<a href="javascript:;" onclick="playBack();"><img src="./images/buttom_72x72_1.png"  alt="Play back" /></a>	
+									<a href="javascript:;" onclick="playBack();">Play Back</a>
+								</div>
+								<div class="multiColumn7">
+									<a href="javascript:;" onclick="randomMsg(6);"><img src="./images/buttom_72x72_2.png"  alt="Surprise" /></a>	
+									<a href="javascript:;" onclick="randomMsg(6);">Surprise</a>
+								</div>
+								<div class="multiColumn8">
+									<a href="javascript:;" onclick="playback = [];"><img src="./images/buttom_72x72_3.png"  alt="Play back Null" /></a>
+									<a href="javascript:;" onclick="playback = [];">Reset</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+	</main>
+	<script >
+		/* Variable declarations and lexical arrays */
+		var synth = window.speechSynthesis;
+		var randomNounArr1 = ['the turkey', 'mom', 'dad', 'the dog', 'my teacher'];
+		var randomVerbArr2 = ['sat on', 'ate', 'danced with', 'saw', 'does not like'];
+		var randomAdjArr3 = ['a funny', 'a scary', 'a goofy', 'a slimy', 'a barking'];
+		var randomNoun2Arr4 = ['goat', 'monkey', 'fish', 'cow', 'frog'];
+		var randomPlaceArr5 = ['on the moon', 'on the chair', 'in my spagetti', 'in my soup', 'on the grass'];
+		var playback = [];
+		/* Create an random function to get word from it’s array */
+		function randomMsg(act) {
+			var rand = Math.floor(Math.random() * 5);
+			/* Create a new speech object, attaching the string of text to speak
+			 Using switch case to get random word from array and attaching the string*/ 
+			switch (act) {
+				case 1:
+					var text = randomNounArr1[rand];
+					break;
+				case 2:
+					var text = randomVerbArr2[rand];
+					break;
+				case 3:
+					var text = randomAdjArr3[rand];
+					break;
+				case 4:
+					var text = randomNoun2Arr4[rand];
+					break;
+				case 5:
+					var text = randomPlaceArr5[rand];
+					break;
+				default:
+				/* To get random word from 5 arrays and attaching the string*/ 
+					var text = randomNounArr1[rand] + ' ' + randomVerbArr2[rand] + ' ' + randomAdjArr3[rand] + ' ' + randomNoun2Arr4[rand] + ' ' + randomPlaceArr5[rand];
+					break;
+			}
+			/* Push text into playback and create a new speech object, attaching the string of text to speak*/
+			playback.push(text);
+			var utterThis = new SpeechSynthesisUtterance(text);
+			/* Actually speak the text*/
+			synth.speak(utterThis);
+			return;
+		}
+		/* Create playback function */
+		function playBack () {
+			for (var i = 0; i < playback.length; i++) {
+				var utterThis = new SpeechSynthesisUtterance(playback[i]);
+				/* Actually speak the text */
+				synth.speak(utterThis);
+			}
+		}
+		</script>
+</body>
+
+</html>
